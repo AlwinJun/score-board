@@ -1,39 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Score Board</title>
-</head>
-<body>
-  <main>
-    <div class="container">
-      <div class="content">
-        <div class="split">
-          <h3>HOME</h3>
-          <div class="score-box">
-            <div class=""score">0</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Score Board</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="content">
+          <div class="split">
+            <h3>HOME</h3>
+            <div class="score-box">
+              <div class="score">0</div>
+            </div>
+            <div class="add-pts-btn">
+              <button id="add-1">+1</button>
+              <button id="add-2">+2</button>
+              <button id="add-3">+3</button>
+            </div>
           </div>
-          <div class="add-pts-btn">
-            <button id="add-1">+1</button>
-            <button id="add-2">+2</button>
-            <button id="add-3">+3</button>
-          </div>
-        </div>
-        <div class="split">
-          <h3>GUEST</h3>
-          <div class="score-box">
-            <div class=""score">0</div>
-          </div>
-          <div class="add-pts-btn">
-            <button id="add-1">+1</button>
-            <button id="add-2">+2</button>
-            <button id="add-3">+3</button>
+          <div class="split">
+            <h3>GUEST</h3>
+            <div class="score-box">
+              <div class="score">0</div>
+            </div>
+            <div class="add-pts-btn">
+              <button id="add-1">+1</button>
+              <button id="add-2">+2</button>
+              <button id="add-3">+3</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </main>
-</body>
+    </main>
+
+    <script src="js/index.js"></script>
+  </body>
 </html>
