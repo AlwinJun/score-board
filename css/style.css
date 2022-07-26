@@ -20,13 +20,14 @@ body {
 
 .container {
   max-width: 575px;
-  min-height: 385px;
+  min-height: 450px;
   background-color: #1b244a;
   margin: 5rem auto;
 }
 
 .content {
   padding: 4.375rem 5.3125rem;
+  padding-bottom: 2rem;
   display: flex;
   justify-content: space-between;
 }
@@ -61,6 +62,23 @@ body {
   color: #9aabd8;
   background-color: inherit;
   padding: 0.6rem;
+  border: 2px solid #9aabd8;
+  border-radius: 6px;
+}
+
+.new-game-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.new-game-btn button {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #9aabd8;
+  text-align: center;
+  background-color: inherit;
+  padding: 1rem;
   border: 2px solid #9aabd8;
   border-radius: 6px;
 }
