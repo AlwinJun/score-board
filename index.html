@@ -16,25 +16,28 @@
           <div class="split">
             <h3>HOME</h3>
             <div class="score-box">
-              <div class="score">0</div>
+              <div class="score" id="home-score">0</div>
             </div>
             <div class="add-pts-btn">
-              <button id="add-1">+1</button>
-              <button id="add-2">+2</button>
-              <button id="add-3">+3</button>
+              <button id="add-1" onclick="homeAdd1()">+1</button>
+              <button id="add-2" onclick="homeAdd2()">+2</button>
+              <button id="add-3" onclick="homeAdd3()">+3</button>
             </div>
           </div>
           <div class="split">
             <h3>GUEST</h3>
             <div class="score-box">
-              <div class="score">0</div>
+              <div class="score" id="guest-score">0</div>
             </div>
             <div class="add-pts-btn">
-              <button id="add-1">+1</button>
-              <button id="add-2">+2</button>
-              <button id="add-3">+3</button>
+              <button id="add-1" onclick="guestAdd1()">+1</button>
+              <button id="add-2" onclick="guestAdd2()">+2</button>
+              <button id="add-3" onclick="guestAdd3()">+3</button>
             </div>
           </div>
+        </div>
+        <div class="new-game-btn">
+          <button id="new-game" onclick="newGame()">New Game</button>
         </div>
       </div>
     </main>
